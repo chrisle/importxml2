@@ -1,0 +1,11 @@
+{
+  "JAVASCRIPT" : {
+    "DIST_DIR" : "./js/dist",
+    "gdoc_helper" : [
+      "./js/src/gdoc_helper.js",
+      "./js/src/gdoc_helper/fetch.js",
+      "./js/src/gdoc_helper/utils.js",
+      "./js/src/exposed_func.js"
+    ]
+  }
+}

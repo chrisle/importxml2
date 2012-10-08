@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:9393/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Mechanize/2.5.1 Ruby/1.9.3p194 (http://github.com/tenderlove/mechanize/)
+      accept-encoding:
+      - gzip,deflate,identity
+      accept-charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      accept-language:
+      - en-us,en;q=0.5
+      host:
+      - localhost:9393
+      connection:
+      - keep-alive
+      keep-alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      x-frame-options:
+      - sameorigin
+      x-xss-protection:
+      - 1; mode=block
+      content-type:
+      - application/json
+      server:
+      - SEER_GDOC_HELPER_1.0
+      x-wtf:
+      - Never gonna give you up, never gonna let you down.
+      content-length:
+      - '39'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":["The GDoc Helper works!"]}'
+    http_version: '1.1'
+  recorded_at: Mon, 01 Oct 2012 01:38:42 GMT
+- request:
+    method: post
+    uri: http://localhost:9393/v1/redirect-chain
+    body:
+      encoding: US-ASCII
+      string: url=http%3A%2F%2Fwww.seerinteractive.com
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Mechanize/2.5.1 Ruby/1.9.3p194 (http://github.com/tenderlove/mechanize/)
+      accept-encoding:
+      - gzip,deflate,identity
+      accept-charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      accept-language:
+      - en-us,en;q=0.5
+      host:
+      - localhost:9393
+      content-type:
+      - application/x-www-form-urlencoded
+      content-length:
+      - '40'
+      connection:
+      - keep-alive
+      keep-alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      x-frame-options:
+      - sameorigin
+      x-xss-protection:
+      - 1; mode=block
+      content-type:
+      - application/json
+      server:
+      - SEER_GDOC_HELPER_1.0
+      x-wtf:
+      - Never gonna give you up, never gonna let you down.
+      content-length:
+      - '42'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"count":1,"content":["200"]}}'
+    http_version: '1.1'
+  recorded_at: Mon, 01 Oct 2012 01:38:43 GMT
+- request:
+    method: post
+    uri: http://localhost:9393/v1/importxml2
+    body:
+      encoding: US-ASCII
+      string: url=http%3A%2F%2Fwww.seerinteractive.com&xpath=%2F%2Fa%2F%40href
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Mechanize/2.5.1 Ruby/1.9.3p194 (http://github.com/tenderlove/mechanize/)
+      accept-encoding:
+      - gzip,deflate,identity
+      accept-charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      accept-language:
+      - en-us,en;q=0.5
+      host:
+      - localhost:9393
+      content-type:
+      - application/x-www-form-urlencoded
+      content-length:
+      - '64'
+      connection:
+      - keep-alive
+      keep-alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      x-frame-options:
+      - sameorigin
+      x-xss-protection:
+      - 1; mode=block
+      content-type:
+      - application/json
+      server:
+      - SEER_GDOC_HELPER_1.0
+      x-wtf:
+      - Never gonna give you up, never gonna let you down.
+      content-length:
+      - '4645'
+      connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"count":91,"content":[["/"],["/our-services"],["http://www.seerinteractive.com/our-services/search-engine-optimization"],["http://www.seerinteractive.com/our-services/search-marketing"],["http://www.seerinteractive.com/our-services/conversion-maximization"],["http://www.seerinteractive.com/our-services/analytics"],["/inside-seer"],["http://www.seerinteractive.com/inside-seer/about-us"],["http://www.seerinteractive.com/our-clients"],["http://www.seerinteractive.com/case-studies"],["http://www.seerinteractive.com/meet-the-team"],["http://www.seerinteractive.com/inside-seer/careers"],["http://www.seerinteractive.com/freelance-opportunities"],["http://www.seerinteractive.com/inside-seer/partnerships"],["http://www.seerinteractive.com/events-calendar"],["/blog"],["/contact-us"],["/meet-the-team"],["#"],["#"],["#"],["/case-studies/finance-case-study"],["/case-studies/linkbuilding-case-study/to-the-2nd-power-internal-links"],["http://www.seerinteractive.com/our-services/search-marketing"],["http://www.seerinteractive.com/our-services/search-engine-optimization"],["http://www.seerinteractive.com/our-services/conversion-maximization"],["http://www.seerinteractive.com/our-services/analytics"],["http://www.seerinteractive.com/blog/reviewing-semrushs-competitve-analysis-for-facebook"],["http://www.seerinteractive.com/blog/reclaim-links-traffic-conversions-you-lost-year-over-year"],["http://www.seerinteractive.com/blog/rcs-how-we-do-it-with-a-live-example"],["http://www.seerinteractive.com/blog/back-to-the-basics-understanding-ppc-traffic-and-how-it-relates-to-seo"],["http://www.seerinteractive.com/blog/pulling-google-mobile-traffic-estimates"],["http://www.seerinteractive.com/seer-videos/using-twitter-for-linkbuilding-in-seo"],["http://www.seerinteractive.com/seer-videos/using-twitter-for-linkbuilding-in-seo"],["http://www.seerinteractive.com/seer-videos/seer-interactive-throwdown-thursday"],["http://www.seerinteractive.com/seer-videos/seer-interactive-throwdown-thursday"],["http://www.seerinteractive.com/seer-videos/link-building-natural-vs-unnatural-patterns"],["http://www.seerinteractive.com/seer-videos/link-building-natural-vs-unnatural-patterns"],["/seer-videos"],["http://www.redcross.org"],["http://blackboardlabs.org"],["http://www.breastfeedingresourcecenter.org"],["http://www.covenanthouse.org"],["http://www.habitat.org"],["http://www.jdrf.org"],["http://www.supportingkidds.org"],["http://laurel-house.org"],["http://www.lls.org"],["http://www.mckeownfoundation.org"],["http://us.movember.com"],["http://newleashonlife-usa.org"],["http://www.pa-ementor.org"],["http://www.phillyadclub.com"],["http://www.phillypaws.org"],["http://www.philabundance.org"],["http://www.projectbasho.org"],["http://rmhc.org"],["http://www.specialolympicspa.org/"],["http://www.studentmentor.org
+        "],["http://www.surfrider.org"],["http://www.ucp.org"],["http://www.waterforwaslala.org"],["http://waygay.org"],["http://www.seerinteractive.com/inside-seer/new-office"],["http://www.seerinteractive.com/inside-seer/partnerships"],["http://www.seerinteractive.com/inside-seer/careers"],["http://www.seerinteractive.com/inside-seer/about-us"],["https://www.facebook.com/SEERInteractive"],["https://twitter.com/#!/seerinteractive"],["https://plus.google.com/110773419613073577531/posts"],["http://www.linkedin.com/company/107248"],["https://adwords.google.com/professionals/profile/org?id=09423586443233306073&hl=en"],["http://advertising.microsoft.com/support-center/training-accreditation/membership-directory?CompanyID=2875"],["http://www.seerinteractive.com/inside-seer/careers"],["http://www.seerinteractive.com/contact-us"],["http://g.co/maps/6jgqa"],["http://www.seerinteractive.com/our-services/search-engine-optimization"],["http://www.seerinteractive.com/our-services/search-marketing"],["http://www.seerinteractive.com/our-services/conversion-maximization"],["http://www.seerinteractive.com/our-services/analytics"],["http://www.seerinteractive.com/inside-seer/about-us"],["http://www.seerinteractive.com/our-clients"],["http://www.seerinteractive.com/case-studies"],["http://www.seerinteractive.com/meet-the-team"],["http://www.seerinteractive.com/inside-seer/careers"],["http://www.seerinteractive.com/freelance-opportunities"],["http://www.seerinteractive.com/inside-seer/partnerships"],["http://www.seerinteractive.com/events-calendar"],["http://www.seerinteractive.com/blog/reviewing-semrushs-competitve-analysis-for-facebook"],["http://www.seerinteractive.com/blog/reclaim-links-traffic-conversions-you-lost-year-over-year"],["http://www.seerinteractive.com/blog/rcs-how-we-do-it-with-a-live-example"]]}}'
+    http_version: '1.1'
+  recorded_at: Mon, 01 Oct 2012 01:38:44 GMT
+recorded_with: VCR 2.2.5
